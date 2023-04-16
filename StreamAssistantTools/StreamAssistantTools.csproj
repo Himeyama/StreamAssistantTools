@@ -6,7 +6,21 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <Title>$(AssemblyName)</Title>
+    <Authors>MURATA Mitsuharu</Authors>
+    <Copyright>© MURATA Mitsuharu</Copyright>
+    <PackageProjectUrl>https://github.com/Himeyama/StreamAssistantTools</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Himeyama/StreamAssistantTools</RepositoryUrl>
+    <NeutralLanguage>ja-JP</NeutralLanguage>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">

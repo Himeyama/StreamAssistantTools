@@ -5,16 +5,20 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamAssistantTools", "StreamAssistantTools\StreamAssistantTools.csproj", "{41005B46-FF83-4116-BB13-D00466B36030}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{B772A427-E9CE-43F2-9D18-E7E9C6FFF865}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{41005B46-FF83-4116-BB13-D00466B36030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{41005B46-FF83-4116-BB13-D00466B36030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41005B46-FF83-4116-BB13-D00466B36030}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{41005B46-FF83-4116-BB13-D00466B36030}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{41005B46-FF83-4116-BB13-D00466B36030}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41005B46-FF83-4116-BB13-D00466B36030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B772A427-E9CE-43F2-9D18-E7E9C6FFF865}.Debug|Any CPU.ActiveCfg = Debug
+		{B772A427-E9CE-43F2-9D18-E7E9C6FFF865}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

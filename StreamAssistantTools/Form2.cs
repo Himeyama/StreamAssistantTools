@@ -261,5 +261,10 @@ namespace WinFormsApp2
         {
             SetDateFormat("HH:mm");
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
